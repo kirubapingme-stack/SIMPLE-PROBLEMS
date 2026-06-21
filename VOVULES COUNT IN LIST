@@ -1,0 +1,10 @@
+r = ["Rajeeeeeeeeeeeeeeeeeeeeeu", "Ram", "Anu"]
+siuu = []
+c=0
+for i in r:
+    c=0
+    for j in i:
+        if j in "aeiouAEIOU":
+            c=c+1
+    siuu.append(c)
+print(siuu)
