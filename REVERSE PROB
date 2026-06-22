@@ -2,3 +2,8 @@ a=3452
 b=str(a)
 b=b[::-1]
 print(int(b))
+
+
+a=121
+b=str(a)
+print(b==b[::-1])
