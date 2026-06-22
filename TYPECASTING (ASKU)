@@ -1,0 +1,8 @@
+a="321"
+
+for i in a:
+    c=(ord(i)-ord('0'))
+    print(c,end="  ")
+
+print(type(c),end="")
+    
