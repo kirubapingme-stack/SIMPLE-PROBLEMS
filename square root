@@ -1,0 +1,2 @@
+x=int(input("enter a num: "))
+print(x**0.5,"is the sq root")
